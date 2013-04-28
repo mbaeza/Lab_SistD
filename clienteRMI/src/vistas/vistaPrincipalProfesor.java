@@ -6,11 +6,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
-public class vistaPrincipalAlumno extends javax.swing.JFrame {
+public class vistaPrincipalProfesor extends javax.swing.JFrame {
     private conexionRMI conexion = new conexionRMI();
     public static String Name;
 
-    public vistaPrincipalAlumno() {
+    public vistaPrincipalProfesor() {
         initComponents();
     }
 
@@ -27,9 +27,9 @@ public class vistaPrincipalAlumno extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Ejemplo Cliente RMI");
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Alumno"));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Profesor"));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ver notas", "chat", "crear comentario", "eliminar comentario", "cambiar contraseña" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "agregar nota", "eliminar nota", "modificar nota", "ver nota", "cambiar de curso", "cambiar contraseña" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);

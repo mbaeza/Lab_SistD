@@ -46,7 +46,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="Alumno"/>
+            <TitledBorder title="Profesor"/>
           </Border>
         </Property>
       </Properties>
@@ -91,12 +91,13 @@
         <Component class="javax.swing.JComboBox" name="jComboBox1">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="5">
-                <StringItem index="0" value="ver notas"/>
-                <StringItem index="1" value="chat"/>
-                <StringItem index="2" value="crear comentario"/>
-                <StringItem index="3" value="eliminar comentario"/>
-                <StringItem index="4" value="cambiar contrase&#xf1;a"/>
+              <StringArray count="6">
+                <StringItem index="0" value="agregar nota"/>
+                <StringItem index="1" value="eliminar nota"/>
+                <StringItem index="2" value="modificar nota"/>
+                <StringItem index="3" value="ver nota"/>
+                <StringItem index="4" value="cambiar de curso"/>
+                <StringItem index="5" value="cambiar contrase&#xf1;a"/>
               </StringArray>
             </Property>
           </Properties>
